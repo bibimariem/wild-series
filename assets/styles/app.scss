@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(107, 119, 226);
+}
+
+// customize some Bootstrap variables
+$primary: #0074d9;
+$danger: #ff4136;
+
+// the ~ allows you to reference things in node_modules
+@import "~bootstrap/scss/bootstrap";
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+);
